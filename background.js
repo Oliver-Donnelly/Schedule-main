@@ -1,7 +1,5 @@
 let currentDate;
 
-let boiip;
-
 const schedule = {
     
     NAVY: {
