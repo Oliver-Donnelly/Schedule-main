@@ -42,11 +42,19 @@ function getTomorrow() {
                 const lines = data.split('\n');
                 for (let i = 1; i < lines.length; i++) {
                     const [date, scheduleDay, week] = lines[i].split(',');
+                    const currentWeek = week.trim();
                     if (date === tomorrowDate) {
-                        const correctDay = scheduleDay.trim();
-                        const colors = schedule.NAVY[correctDay];
-                        resolve(colors);
-                        return;
+                        if(currentWeek == "Gold"){
+                            const correctDay = scheduleDay.trim();
+                            const colors = schedule.GOLD[correctDay];
+                            resolve(colors);
+                            return;
+                            } else{
+                                const correctDay = scheduleDay.trim();
+                            const colors = schedule.NAVY[correctDay];
+                            resolve(colors);
+                            return;
+                            }
                     }
                 }
                 reject(`No School tomorrow YAY!!!`);
