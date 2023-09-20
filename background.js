@@ -19,7 +19,7 @@ const schedule = {
         //No M1 + M2 on schedule
         dayA: ['Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French'],
         dayB: ['Green/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math'],
-        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'Free', 'Blue/English'],
+        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'Green/Free', 'Blue/English'],
         dayD: ['Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry'],
         dayE: ['Orange/French', 'Green/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free'],
         dayF: ['Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French', 'Green/Digital Networking'],
@@ -27,6 +27,35 @@ const schedule = {
         dayH: ['Yellow/Chemistry', 'Orange/French', 'Green/Digital Networking', 'Blue/English', 'Tan/History']
     }
 };
+
+function getTomorrow() {
+    return new Promise((resolve, reject) => {
+        let currentDate = new Date();
+        currentDate.setDate(currentDate.getDate() + 1);  // Adjust to the next day
+        const tomorrowDate = currentDate.toISOString().split('T')[0];
+        const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS3-6MgEPFUcHbLfa7q97_I6BI8CJvLZA0FDPxMwKOEFKYZs1GAw_4CRt6oOIWhMEITpOKzYrW2u7Ef/pub?gid=0&single=true&output=csv';
+        const cacheBuster = new Date().getTime();
+        const urlWithCacheBuster = `${url}&_=${cacheBuster}`;
+        fetch(urlWithCacheBuster, { cache: "no-store" })    
+            .then(response => response.text())
+            .then(data => {
+                const lines = data.split('\n');
+                for (let i = 1; i < lines.length; i++) {
+                    const [date, scheduleDay, week] = lines[i].split(',');
+                    if (date === tomorrowDate) {
+                        const correctDay = scheduleDay.trim();
+                        const colors = schedule.NAVY[correctDay];
+                        resolve(colors);
+                        return;
+                    }
+                }
+                reject(`No School tomorrow YAY!!!`);
+            })
+            .catch(error => {
+                reject(error);
+            });
+    });
+}
 
 function getToday() {
     return new Promise((resolve, reject) => {
@@ -75,8 +104,8 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         });
         return true;  // Indicates you wish to send a response asynchronously.
     }
+
     if (message.action === "getTomorrowSchedule") {
-        console.log("Fetching tomorrow's schedule...");
         getTomorrow().then(colors => {
             sendResponse({ status: "success", colors: colors });
         }).catch(error => {
@@ -85,4 +114,3 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         return true;  // Indicates you wish to send a response asynchronously.
     }
 });
-
