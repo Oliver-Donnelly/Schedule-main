@@ -6,25 +6,25 @@ const schedule = {
         //Navy + Gold = same
         //No M1 + M2 on schedule
         dayA: ['Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French'],
-        dayB: ['Green/Free', 'Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math'],
-        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'Green/Digital Networking', 'Blue/English'],
+        dayB: ['LightGreen/Free', 'Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math'],
+        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'LightGreen/Digital Networking', 'Blue/English'],
         dayD: ['Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry'],
-        dayE: ['Orange/French', 'PurpleFree', 'Pink/Math', 'Tan/History', 'Purple/Free'],
-        dayF: ['Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French', 'Green/Digital Networking'],
+        dayE: ['Orange/French', 'LightGreen/Free', 'Pink/Math', 'Tan/History', 'Purple/Free'],
+        dayF: ['Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French', 'LightGreen/Digital Networking'],
         dayG: ['Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA'],
-        dayH: ['Yellow/Chemistry', 'Orange/French', 'Green/Free', 'Blue/English', 'Tan/History']
+        dayH: ['Yellow/Chemistry', 'Orange/French', 'LightGreen/Free', 'Blue/English', 'Tan/History']
     },
     GOLD: {
         //Navy + Gold = same
         //No M1 + M2 on schedule
         dayA: ['Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French'],
-        dayB: ['Green/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math'],
-        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'Green/Free', 'Blue/English'],
+        dayB: ['LightGreen/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math'],
+        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'LightLightGreen/Free', 'Blue/English'],
         dayD: ['Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry'],
-        dayE: ['Orange/French', 'Green/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free'],
-        dayF: ['Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French', 'Green/Digital Networking'],
+        dayE: ['Orange/French', 'LightGreen/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free'],
+        dayF: ['Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French', 'LightGreen/Free'],
         dayG: ['Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA'],
-        dayH: ['Yellow/Chemistry', 'Orange/French', 'Green/Digital Networking', 'Blue/English', 'Tan/History']
+        dayH: ['Yellow/Chemistry', 'Orange/French', 'LightGreen/Digital Networking', 'Blue/English', 'Tan/History']
     }
 };
 
