@@ -9,7 +9,7 @@ const schedule = {
         dayB: ['LightGreen/Free', 'Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math'],
         dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'LightGreen/Digital Networking', 'Blue/English'],
         dayD: ['Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry'],
-        dayE: ['Orange/French', 'LightGreen/Free', 'Pink/Math', 'Tan/History', 'Purple/Free'],
+        dayE: ['Orange/French', 'LightGreen/Free', 'Blue/English', 'Tan/History', 'Purple/Free'],
         dayF: ['Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French', 'LightGreen/Digital Networking'],
         dayG: ['Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA'],
         dayH: ['Yellow/Chemistry', 'Orange/French', 'LightGreen/Free', 'Blue/English', 'Tan/History']
