@@ -19,7 +19,7 @@ const schedule = {
         //No M1 + M2 on schedule
         dayA: ['Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French'],
         dayB: ['LightGreen/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free', 'Pink/Math'],
-        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'LightLightGreen/Free', 'Blue/English'],
+        dayC: ['Yellow/Chemistry', 'Red/CSA', 'Orange/French', 'LightGreen/Free', 'Blue/English'],
         dayD: ['Tan/History', 'Purple/Free', 'Pink/Math', 'Red/CSA', 'Yellow/Chemistry'],
         dayE: ['Orange/French', 'LightGreen/Digital Networking', 'Blue/English', 'Tan/History', 'Purple/Free'],
         dayF: ['Pink/Math', 'Red/CSA', 'Yellow/Chemistry', 'Orange/French', 'LightGreen/Free'],
@@ -64,7 +64,6 @@ function getTomorrow() {
             });
     });
 }
-
 function getToday() {
     return new Promise((resolve, reject) => {
         currentDate = new Date().toISOString().split('T')[0];
