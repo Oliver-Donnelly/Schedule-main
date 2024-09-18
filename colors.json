@@ -1,0 +1,212 @@
+{
+  "SchoolWeek": [
+    {
+      "Day": "A",
+      "Color": "Gold",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Vm2"},
+        {"Period": "p2", "Class": "Pm2"},
+        {"Period": "p3", "Class": "Rm2"},
+        {"Period": "p4", "Class": "Ym2"},
+        {"Period": "p5", "Class": "Om2"}
+        
+      ]
+    },
+    {
+      "Day": "B",
+      "Color": "Gold",
+  
+      "Schedule": [
+        {"Period": "p1", "Class": "Gm2"},
+        {"Period": "p2", "Class": "Bm2"},
+        {"Period": "p3", "Class": "Tm2"},
+        {"Period": "p4", "Class": "Vm1"},
+        {"Period": "p5", "Class": "Pm1"}
+        
+      ]
+    },
+    {
+      "Day": "C",
+      "Color": "Gold",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Ym1"},
+        {"Period": "p2", "Class": "Rm1"},
+        {"Period": "p3", "Class": "Om1"},
+        {"Period": "p4", "Class": "Gm1"},
+        {"Period": "p5", "Class": "Bm1"}
+        
+      ]
+    },
+    {
+      "Day": "D",
+      "Color": "Gold",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Tm1"},
+        {"Period": "p2", "Class": "Vm2"},
+        {"Period": "p3", "Class": "Pm2"},
+        {"Period": "p4", "Class": "Rm2"},
+        {"Period": "p5", "Class": "Ym2"}
+        
+      ]
+    },
+    {
+      "Day": "E",
+      "Color": "Gold",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Om2"},
+        {"Period": "p2", "Class": "Gm2"},
+        {"Period": "p3", "Class": "Bm2"},
+        {"Period": "p4", "Class": "Tm2"},
+        {"Period": "p5", "Class": "Vm1"}
+        
+      ]
+    },
+    {
+      "Day": "F",
+      "Color": "Gold",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Pm1"},
+        {"Period": "p2", "Class": "Rm1"},
+        {"Period": "p3", "Class": "Ym1"},
+        {"Period": "p4", "Class": "Om1"},
+        {"Period": "p5", "Class": "Gm1"}
+        
+      ]
+    },
+    {
+      "Day": "G",
+      "Color": "Gold",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Bm1"},
+        {"Period": "p2", "Class": "Tm1"},
+        {"Period": "p3", "Class": "Vm2"},
+        {"Period": "p4", "Class": "Pm2"},
+        {"Period": "p5", "Class": "Rm2"}
+        
+      ]
+    },
+    {
+      "Day": "H",
+      "Color": "Gold",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Ym2"},
+        {"Period": "p2", "Class": "Om2"},
+        {"Period": "p3", "Class": "Gm2"},
+        {"Period": "p4", "Class": "Bm2"},
+        {"Period": "p5", "Class": "Tm2"}
+        
+      ]
+    },
+    {
+      "Day": "A",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Vm2"},
+        {"Period": "p2", "Class": "Pm2"},
+        {"Period": "p3", "Class": "Rm2"},
+        {"Period": "p4", "Class": "Ym2"},
+        {"Period": "p5", "Class": "Om2"}
+        
+      ]
+    },
+    {
+      "Day": "B",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Gm2"},
+        {"Period": "p2", "Class": "Bm2"},
+        {"Period": "p3", "Class": "Tm2"},
+        {"Period": "p4", "Class": "Vm1"},
+        {"Period": "p5", "Class": "Pm1"}
+        
+      ]
+    },
+    {
+      "Day": "C",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Ym1"},
+        {"Period": "p2", "Class": "Rm1"},
+        {"Period": "p3", "Class": "Om1"},
+        {"Period": "p4", "Class": "Gm1"},
+        {"Period": "p5", "Class": "Bm1"}
+        
+      ]
+    },
+    {
+      "Day": "D",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Tm1"},
+        {"Period": "p2", "Class": "Vm2"},
+        {"Period": "p3", "Class": "Pm2"},
+        {"Period": "p4", "Class": "Rm2"},
+        {"Period": "p5", "Class": "Ym2"}
+        
+      ]
+    },
+    {
+      "Day": "E",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Om2"},
+        {"Period": "p2", "Class": "Gm2"},
+        {"Period": "p3", "Class": "Bm2"},
+        {"Period": "p4", "Class": "Tm2"},
+        {"Period": "p5", "Class": "Vm1"}
+        
+      ]
+    },
+    {
+      "Day": "F",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Pm1"},
+        {"Period": "p2", "Class": "Rm1"},
+        {"Period": "p3", "Class": "Ym1"},
+        {"Period": "p4", "Class": "Om1"},
+        {"Period": "p5", "Class": "Gm1"}
+        
+      ]
+    },
+    {
+      "Day": "G",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Bm1"},
+        {"Period": "p2", "Class": "Tm1"},
+        {"Period": "p3", "Class": "Vm2"},
+        {"Period": "p4", "Class": "Pm2"},
+        {"Period": "p5", "Class": "Rm2"}
+        
+      ]
+    },
+    {
+      "Day": "H",
+      "Color": "Navy",
+      
+      "Schedule": [
+        {"Period": "p1", "Class": "Ym2"},
+        {"Period": "p2", "Class": "Om2"},
+        {"Period": "p3", "Class": "Gm2"},
+        {"Period": "p4", "Class": "Bm2"},
+        {"Period": "p5", "Class": "Tm2"}
+        
+      ]
+    }
+  ]
+}
